@@ -1,0 +1,17 @@
+S:\Swappa\Swappa.Infrastructure\bin\Debug\net7.0\Swappa.Infrastructure.deps.json
+S:\Swappa\Swappa.Infrastructure\bin\Debug\net7.0\Swappa.Infrastructure.runtimeconfig.json
+S:\Swappa\Swappa.Infrastructure\bin\Debug\net7.0\Swappa.Infrastructure.dll
+S:\Swappa\Swappa.Infrastructure\bin\Debug\net7.0\Swappa.Infrastructure.pdb
+S:\Swappa\Swappa.Infrastructure\bin\Debug\net7.0\Swappa.ApplicationCore.dll
+S:\Swappa\Swappa.Infrastructure\bin\Debug\net7.0\Swappa.ApplicationCore.pdb
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.csproj.AssemblyReference.cache
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.AssemblyInfoInputs.cache
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.AssemblyInfo.cs
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.csproj.CoreCompileInputs.cache
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.csproj.CopyComplete
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.dll
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\refint\Swappa.Infrastructure.dll
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.pdb
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\Swappa.Infrastructure.genruntimeconfig.cache
+S:\Swappa\Swappa.Infrastructure\obj\Debug\net7.0\ref\Swappa.Infrastructure.dll

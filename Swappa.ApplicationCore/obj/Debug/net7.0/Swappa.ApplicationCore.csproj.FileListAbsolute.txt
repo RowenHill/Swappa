@@ -1,0 +1,14 @@
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.csproj.AssemblyReference.cache
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.AssemblyInfoInputs.cache
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.AssemblyInfo.cs
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.csproj.CoreCompileInputs.cache
+S:\Swappa\Swappa.ApplicationCore\bin\Debug\net7.0\Swappa.ApplicationCore.deps.json
+S:\Swappa\Swappa.ApplicationCore\bin\Debug\net7.0\Swappa.ApplicationCore.runtimeconfig.json
+S:\Swappa\Swappa.ApplicationCore\bin\Debug\net7.0\Swappa.ApplicationCore.dll
+S:\Swappa\Swappa.ApplicationCore\bin\Debug\net7.0\Swappa.ApplicationCore.pdb
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.dll
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\refint\Swappa.ApplicationCore.dll
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.pdb
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\Swappa.ApplicationCore.genruntimeconfig.cache
+S:\Swappa\Swappa.ApplicationCore\obj\Debug\net7.0\ref\Swappa.ApplicationCore.dll

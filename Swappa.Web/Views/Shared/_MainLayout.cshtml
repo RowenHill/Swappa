@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web</title>
+  <link rel="stylesheet" href="css/min.css" />
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="css/Style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <nav class="navbar navbar-expand-lg" id="main-bg">
+    <div class="container-fluid">
+      <div class="d-flex">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars " style="color: #fff;font-size :36px;"></i>
+        </button>
+        <button class="btn tm-search-btn log_in" type="submit">
+          <i class='bx bx-help-circle f-s-50'></i>
+        </button>
+        <button class="btn tm-search-btn log_in" type="submit">
+          <i class='bx bx-dollar-circle f-s-50'></i>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse d-block flex-column" id="navbarSupportedContent">
+        <div class="offcanvas-header">
+          <h3 class="mt-auto mb-auto offcanvas-title">
+            <div class="fa-fw d-inline-block me-1">
+              <img src="https://static.swappa.com/static/images/logos/swappa_logo_ffffff.svg" alt="" />
+            </div>
+            Save with Swappa
+          </h3>
+          <button class="btn-close text-reset mt-auto mb-auto ml-3"></button>
+        </div>
+        <div class="offcanvas-body mt-3">
+          <div class="row row-cols-2 mb-3">
+            <div class="col-6">
+              <a href="./login.html" class="btn btn-login d-block">Login</a>
+            </div>
+            <div class="col-6">
+              <a href="./register.html" class="btn btn-login btn-register d-block">Register</a>
+            </div>
+            <div class="col-6 w-100 mt-3">
+
+              <div class="side-menu-modal w-100">
+                <a href="./single-product.html">
+                  <i class='bx bx-search'></i> Search
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="./single-product.html">
+                  <i class='bx bx-help-circle'></i> Help
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="./single-product.html">
+                  <i class='bx bx-dollar-circle'></i> Sell
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="./single-product.html">
+                  <i class='bx bx-candles'></i> Trade-In
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="./single-product.html">
+                  <i class='bx bx-store-alt'></i> Cart
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="./single-product.html">
+                  <i class='bx bx-location-plus'></i> Local
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <h4 class="mt-3">Shop</h4>
+              <div class="side-menu-modal">
+                <a href="#iphone-items">
+                  <i class='bx bxl-apple'></i> iPhones
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="./single-product.html">
+                  <i class='bx bx-mobile-alt'></i> Phones
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="#laptop-items">
+                  <i class='bx bx-laptop'></i> Laptop and MacBooks
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="#laptop-items">
+                  <i class='bx bx-laptop'></i> Computer
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="#watch-items">
+                  <i class='bx bxs-watch-alt'></i> Watches and Wearables
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+              <div class="side-menu-modal">
+                <a href="#ipad-items">
+                  <i class='bx bxs-devices'></i> Tablets and iPads
+                  <span class="float-end">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="navbar-brand" href="./index.html">
+        <img class="logo-main" src="./img/LogoMain.svg" alt="" />
+      </a>
+      <div>
+        <button class="btn tm-search-btn log_in" type="submit">
+          <i class='bx bx-universal-access nav-link-12 f-s-50'></i>
+        </button>
+        <a href="./single-cart.html">
+          <button class="btn  tm-search-btn shopping" type="submit">
+            <i class='bx bxs-shopping-bag-alt f-s-50'></i>
+          </button>
+        </a>
+        <button class="btn  tm-search-btn search_card" type="submit">
+          <i class="fas fa-search f-s-50"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <section class="section-body ">
+    
+  </section>
+  <footer class="footer mt-auto bg-fot">
+    <div class="container">
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 mb-3 ms-sm-3 ms-md-5 ms-lg-3 ms-xl-5 " id="ca-3">
+        <div class="col mt-5">
+          <ul>
+            <li>
+              <a href="./single-product.html">Buy</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Buyer Guides</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Buy Phones</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Buy Tablets</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Buy MacBooks</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Buy Laptops</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Buy iPhones</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Buy Apple</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <ul>
+            <li>
+              <a href="./single-product.html">Unlocked</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Video Games</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Smartwatches</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Cameras+Lenses</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Home Tech</a>
+            </li>
+            <li>
+              <a href="./single-product.html">AirPods+Audio</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Drones+DJI</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Fitness+Cycling</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <ul>
+            <li>
+              <a href="./single-product.html">Sell</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Trade-in</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Sell Phones</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Sell Tablets</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Sell MacBooks</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Sell Laptops</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Sell iPhones</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Sell Apple</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <ul>
+            <li>
+              <a href="./single-product.html">IMEI Check</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Swappa Local</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Download App</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Catalog</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Carriers</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Phone Repair</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Swappa vs. eBay</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <ul>
+            <li>
+              <a href="./single-product.html">Help</a>
+            </li>
+            <li>
+              <a href="./single-product.html">FAQs</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Search</a>
+            </li>
+            <li>
+              <a href="./single-product.html">ADA Accessibility</a>
+            </li>
+            <li>
+              <a href="./single-product.html">
+                <Sustainability></Sustainability>
+              </a>
+            </li>
+            <li>
+              <a href="./single-product.html">Prices</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Fees</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mt-5">
+          <ul>
+            <li>
+              <a href="./single-product.html">About Swappa</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Blog</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Forums</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Press</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Policies</a>
+            </li>
+            <li>
+              <a href="./single-product.html">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="mt-4 mb-4 col py-1 social_links d-flex justify-content-center align-items-center ">
+          <a href="#" class="fz-f">
+            <i class='bx bxl-facebook-circle'></i>
+          </a>
+          <a href="#" class="fz-f">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="#" class="fz-f">
+            <i class='bx bxl-twitter'></i>
+          </a>
+          <a href="#" class="fz-f">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+          <a href="#" class="fz-f">
+            <i class='bx bxl-telegram'></i>
+          </a>
+        </div>
+        <div class="col py-1 d-flex justify-content-center align-items-center">
+          <div class="last-logo">
+            <a href="#"><img src="https://static.swappa.com/static/images/logos/swappa_wordmark_ffffff.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="col py-1 d-flex justify-content-center align-items-center text-center">
+          Copyright © 2010-2022 LA SON, LLC
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </footer>
+  <script src="~/js/plugins.js"></script>
+  <script>
+    $(window).on("load", function () {
+      $("body").addClass("loaded");
+    });
+  </script>
+</body>
+
+</html>
